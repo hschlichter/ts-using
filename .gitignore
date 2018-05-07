@@ -9,6 +9,3 @@ node_modules
 dist
 coverage
 release
-resources/plugins/*
-tests/tmp/*
-db
