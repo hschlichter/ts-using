@@ -1,7 +1,7 @@
 {
   "name": "ts-using",
-  "version": "1.0.0",
-  "description": "Dispoable pattern from C#",
+  "version": "1.0.1",
+  "description": "Using/Disposable pattern from C#",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
