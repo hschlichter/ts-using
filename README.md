@@ -1,5 +1,7 @@
 # ts-using
 
+![travis](https://travis-ci.org/hschlichter/ts-using.svg?branch=master)
+
 I really wanted to be able to use the C# pattern of `using` and `IDisposable` in typescript.
 
 [using-statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-statement)
