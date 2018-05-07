@@ -1,6 +1,7 @@
 # ts-using
 
-![travis](https://travis-ci.org/hschlichter/ts-using.svg?branch=master)
+[![travis](https://travis-ci.org/hschlichter/ts-using.svg?branch=master)](https://travis-ci.org/hschlichter/ts-using?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/hschlichter/ts-using/badge.svg?branch=master)](https://coveralls.io/github/hschlichter/ts-using?branch=master)
 
 I really wanted to be able to use the C# pattern of `using` and `IDisposable` in typescript.
 
