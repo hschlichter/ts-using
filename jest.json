@@ -1,0 +1,14 @@
+{
+    "transform": {
+        "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "transformIgnorePatterns": [
+        "node_modules/(?!@dowit)/"
+    ],
+    "testRegex": "./tests/.*\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js"
+    ]
+}

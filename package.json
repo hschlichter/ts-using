@@ -1,0 +1,25 @@
+{
+  "name": "ts-using",
+  "version": "1.0.0",
+  "description": "Dispoable pattern from C#",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p ./tsconfig.json",
+    "tslint": "./node_modules/.bin/tslint -c ./tslint.json 'src/**/*.ts' 'tests/**/*.ts'",
+    "test": "./node_modules/.bin/jest -i --config ./jest.json"
+  },
+  "author": "Henrik Schlichter",
+  "license": "ISC",
+  "files": [
+    "./dist"
+  ],
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^10.0.4",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
